@@ -15,7 +15,7 @@ fn main() {
         total_calories: 0,
     };
 
-    if let Ok(lines) = read_lines("input.txt") {
+    if let Ok(lines) = read_lines("input_day_01.txt") {
         for line in lines {
             if let Ok(input) = line {
                 let test = input.parse::<usize>();
