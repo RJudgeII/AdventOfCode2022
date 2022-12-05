@@ -40,7 +40,7 @@ where
 fn read_file() -> Vec<Vec<Vec<usize>>> {
   let mut output: Vec<Vec<Vec<usize>>> = Vec::new();
 
-  if let Ok(lines) = read_lines("input_day_04.txt") {
+  if let Ok(lines) = read_lines("input_files/input_day_04.txt") {
     for line in lines {
       let mut elves: Vec<Vec<usize>> = Vec::new();
       let mut elf1: Vec<usize> = Vec::new();

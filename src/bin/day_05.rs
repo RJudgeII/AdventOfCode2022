@@ -55,7 +55,7 @@ fn read_file() -> (Vec<String>, Vec<String>) {
   let mut crates: Vec<String> = Vec::new();
   let mut instructions: Vec<String> = Vec::new();
 
-  if let Ok(lines) = read_lines("input_day_05.txt") {
+  if let Ok(lines) = read_lines("input_files/input_day_05.txt") {
     for line in lines {
       if line_number <= 8 {
         if let Ok(input) = line {
